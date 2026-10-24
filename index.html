@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Personal research archive utility: Google Drive access, privacy and terms."><title>pmkt — Personal research archive</title><link rel="stylesheet" href="style.css"></head>
+<body><header><a class="brand" href="index.html" aria-label="pmkt home">pmkt</a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header><main><p class="eyebrow">Personal research utility</p>
+<h1>Research archives in your own Google Drive.</h1>
+<p class="intro">pmkt is an operator-run utility for preserving prediction-market research recordings. It uploads completed archives to the operator’s Google Drive and verifies that the stored files can be read back.</p>
+<div class="panel"><dl class="details"><div><dt>Audience</dt><dd>The account owner</dd></div><div><dt>Drive permission</dt><dd><code>drive.file</code></dd></div><div><dt>Purpose</dt><dd>Upload, verify, restore</dd></div></dl></div>
+<h2>What the utility does</h2>
+<p>The operator selects completed research recordings, prepares compressed archives, and uses a locally installed uploader to store them in Google Drive. File metadata, checksums and downloaded copies are used to verify the archives.</p>
+<h2>What authorizing Drive permits</h2>
+<p>The <code>drive.file</code> permission permits reading, creating, updating and deleting files created by or explicitly authorized for the app. The configured archive workflow uses uploads, metadata checks and downloads. Access continues only while the Google authorization remains valid.</p>
+<p>OAuth credentials are retained on the operator’s computer with restricted filesystem permissions. Archive contents stay in the operator’s local storage and Google Drive; this information website does not display them.</p>
+<h2>About the project</h2>
+<p>pmkt is maintained by <a href="https://github.com/Erew42">Erew42</a> for personal research. The intended user is the Google account owner. Questions about the utility can be directed to the support email shown on its Google consent screen.</p>
+<p>Read the <a href="privacy.html">privacy notice</a> for data handling details and the <a href="terms.html">terms of use</a> for the intended use of this utility.</p></main><footer><span>pmkt · Personal research archive</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></footer></body></html>
